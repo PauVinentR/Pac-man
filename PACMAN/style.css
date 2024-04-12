@@ -1,0 +1,112 @@
+body{
+    background-color:black;
+}
+
+.div{
+    display: block;
+}
+
+.score{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.level{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.vidas{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.button{
+    background-color: aquamarine;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.start{
+    background-color: aquamarine;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.grid{
+    width: 560px;
+    height: 560px;
+    border: solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid div{
+    width: 20px;
+    height: 20px;
+    box-sizing: border-box;
+}
+
+.punts{
+    background-image: url('IMG/punts2.png');
+}
+
+.paret{
+    background-image: url('IMG/paret1.png')
+}
+
+.poder{
+    background-image: url('IMG/poder2.png');
+}
+
+.fantasma1{
+    background-image: url('IMG/fantasma1_2.png') !important;
+}
+
+.fantasma2{
+    background-image: url('IMG/fantasma2_2.png') !important;
+}
+
+.fantasma3{
+    background-image: url('IMG/fantasma3_2.png') !important;
+}
+
+.fantasma4{
+    background-image: url('IMG/fantasma4_2.png') !important;
+}
+
+.fantasma-asustat{
+    background-image: url('IMG/fantasma-asustat_2.png') !important;
+}
+
+.ghost{
+    
+}
+
+.pacman{
+    content: url('IMG/pacman1_2.png');
+}
+
+.pacman1{
+    content: url('IMG/pacman1_2.png');
+}
+
+.pacman2{
+    content: url('IMG/pacman2_2.png');
+}
+
+.buit{
+    background-image: url('IMG/buit2.png');
+}
+
+.img2{
+    content: url(IMG/lose.jpg)
+}
+
+.img{
+    content: url(IMG/victory.jpg)
+}
